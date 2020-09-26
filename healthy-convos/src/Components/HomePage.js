@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import Videos from './Videos';
 import Articles from './articles';
 
+
 class HomePage extends Component {
   render() {
     return (
