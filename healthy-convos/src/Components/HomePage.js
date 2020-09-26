@@ -8,7 +8,9 @@ class HomePage extends Component {
       <div>
         <Row>
           <Col md={24} lg={12}>
-            <Row id="Articles"></Row>
+            <Row id="Articles">
+              <Articles/>
+            </Row>
             <Row id="Videos">
               <Videos/>
             </Row>
