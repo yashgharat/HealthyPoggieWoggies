@@ -1,0 +1,24 @@
+{
+  "name": "HealthyPoggieWoggies",
+  "version": "1.0.0",
+  "description": "promoting #HealthyConversations, one tweet at a time",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashgharat/HealthyPoggieWoggies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashgharat/HealthyPoggieWoggies/issues"
+  },
+  "homepage": "https://github.com/yashgharat/HealthyPoggieWoggies#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "twit": "^2.2.11"
+  }
+}
