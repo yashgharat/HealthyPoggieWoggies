@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Row, Col } from 'antd';
-
+import Videos from './Videos';
 
 class HomePage extends Component {
   render() {
@@ -9,7 +9,9 @@ class HomePage extends Component {
         <Row>
           <Col md={24} lg={12}>
             <Row id="Articles"></Row>
-            <Row id="Videos"></Row>
+            <Row id="Videos">
+              <Videos/>
+            </Row>
           </Col>
           <Col id="TwitterFeed" md={24} lg={12}>
 
@@ -18,7 +20,7 @@ class HomePage extends Component {
       </div>
     );
   }
-  
+
 }
 
 export default HomePage;
