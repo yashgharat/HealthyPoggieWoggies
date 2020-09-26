@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import { Row, Col } from 'antd';
 import Videos from './Videos';
-import Articles from './articles'
+import Articles from './articles';
+import TwitterFeed from './TwitterFeed';
 
 class HomePage extends Component {
   render() {
@@ -17,7 +18,7 @@ class HomePage extends Component {
             </Row>
           </Col>
           <Col id="TwitterFeed" md={24} lg={12}>
-
+            <TwitterFeed/>
           </Col>
         </Row>
       </div>
